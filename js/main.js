@@ -34,7 +34,7 @@
       			$(".preloader-right").addClass("slide-right");
       			//	Typerjs function - Edit the sentences below
 				$('.hi .detail')
-					.typeTo("I'm Katya. Front-end developer based on Saint Petersburg, Russia. While not coding, i love to play guitar and read comic books.");
+					.typeTo("We are EuroWeb5. Fullstack web developers based in Vienna and Amsterdam. While not coding, we love to play guitar and read comic books.");
       		});
 		});
 
