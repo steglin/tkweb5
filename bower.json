@@ -16,6 +16,8 @@
   ],
   "dependencies": {
     "jquery-ui": "^1.11.4",
-    "jquery": "^2.2.4"
+    "jquery": "^2.2.4",
+    "react": "^15.1.0",
+    "react-tether": "^0.5.2"
   }
 }

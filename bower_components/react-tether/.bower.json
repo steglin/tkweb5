@@ -1,0 +1,37 @@
+{
+  "name": "react-tether",
+  "version": "0.5.2",
+  "homepage": "https://github.com/souporserious/react-tether",
+  "authors": [
+    "Travis Arnold <ftntravis@gmail.com>"
+  ],
+  "description": "Drop content anywhere on the page.",
+  "main": [
+    "./dist/react-tether.js"
+  ],
+  "keywords": [
+    "react",
+    "react-tether",
+    "tether",
+    "component",
+    "drop"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.5.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.5.2",
+    "commit": "8f6ebdb0e0ca84a7ca4971806bbc0493ad83be56"
+  },
+  "_source": "https://github.com/souporserious/react-tether.git",
+  "_target": "^0.5.2",
+  "_originalSource": "react-tether",
+  "_direct": true
+}
