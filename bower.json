@@ -1,0 +1,21 @@
+{
+  "name": "euroweb5",
+  "homepage": "https://github.com/steglin/tkweb5",
+  "authors": [
+    "alexander Steglin <alexander.steglin@outlook.com>"
+  ],
+  "description": "web services in EU",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "^1.11.4",
+    "jquery": "^2.2.4"
+  }
+}
