@@ -33,7 +33,11 @@
       			$(".preloader-left").addClass("slide-left");
       			$(".preloader-right").addClass("slide-right");
       			//	Typerjs function - Edit the sentences below
-				$('.hi .typer-offer').typeTo("We make you a basis website for FREE");
+				$('.typer-what-we-do').typeTo("We make websites that bring more clients.");
+                $('.typer-offer').typeTo("We make you a trial website for FREE !");
+                $('.typer-offer2').typeTo(" And if you like it you can use our service.");
+                $('.typer-benefit1').typeTo(" • get more people to know about your products & services");
+                $('.typer-benefit2').typeTo(" • Your business – quick online!");
       		});
 		});
 

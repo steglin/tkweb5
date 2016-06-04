@@ -160,7 +160,8 @@ body {
 	line-height: 1.3em;
 }
 
-.hi > .typer-offer {
+.hi > .typer-what-we-do, .hi > .typer-offer, .hi > .typer-offer2, .hi > .typer-benefit1,
+.hi > .typer-benefit2 {
     font-family: 'EB Garamond', serif;
     font-size: 1.5rem;
     text-align: center;
