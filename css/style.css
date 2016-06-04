@@ -151,19 +151,21 @@ body {
 }
 
 .hi {
-	padding: 30px 50px;
+	padding: 7px 7px;
+    text-align: center;
 	border-bottom: 1px solid #ddd;
-	font-family: 'Droid Serif', serif;
+	font-family: 'EB Garamond', serif;
 	color: #3A4145;
-	font-size: 1.6rem;
-	line-height: 1.5em;
+	font-size: 1.4rem;
+	line-height: 1.3em;
 }
 
-.hi .dropcap {
-	font-size: 5.2rem;
-	float: left;
-	line-height: 4.8rem;
-	padding-right: 7px;
+.hi > .typer-offer {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.4rem;
+    font-weight: 600;
 }
 
 .button {

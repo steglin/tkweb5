@@ -11,15 +11,14 @@ String.prototype.rightChars = function(n){
 };
 
 (function($) {
-  var
-    options = {
-      highlightSpeed    : 20,
-      typeSpeed         : 75,
-      clearDelay        : 500,
-      typeDelay         : 200,
-      clearOnHighlight  : true,
-      typerDataAttr     : 'data-typer-targets',
-      typerInterval     : 2000
+  var options = {
+        highlightSpeed    : 20,
+        typeSpeed         : 100,
+        clearDelay        : 500,
+        typeDelay         : 200,
+        clearOnHighlight  : true,
+        typerDataAttr     : 'data-typer-targets',
+        typerInterval     : 2000
     },
     highlight,
     clearText,

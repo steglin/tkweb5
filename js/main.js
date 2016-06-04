@@ -33,8 +33,7 @@
       			$(".preloader-left").addClass("slide-left");
       			$(".preloader-right").addClass("slide-right");
       			//	Typerjs function - Edit the sentences below
-				$('.hi .detail')
-					.typeTo("We are EuroWeb5. Fullstack web developers based in Vienna and Amsterdam. While not coding, we love to play guitar and read comic books.");
+				$('.hi .typer-offer').typeTo("We make you a basis website for FREE");
       		});
 		});
 
