@@ -1,11 +1,4 @@
 /*  ==========================================================
-
-Template name 	: Katya - Responsive Creative CV Template
-Author  		: balapa
-Email   		: balapa95@gmail.com
-
-==============================================================
-
 [Table of contents]
 
 1. 	basic setting
@@ -126,14 +119,14 @@ body {
 
 #profile .big-image {
 	width: 80px;
-	border-radius: 50%;
+	// border-radius: 50%;
 	display: block;
 	margin: 0 auto 15px;
 }
 
 #profile .small-image {
 	width: 40px;
-	border-radius: 50%;
+	// border-radius: 50%;
 }
 
 .logo {
@@ -214,6 +207,20 @@ body {
 
 .social li a:hover {
 	text-decoration: none;
+}
+
+/* profile (OFFER)  elements */
+#ew5-under-logo-text{
+	text-shadow:1px 1px 1px rgba(13,12,13,0.8);
+	font-weight:bold;
+	color:#262626;
+	letter-spacing:1pt;
+	word-spacing:2pt;
+	font-size:17px;
+	text-align:center;
+	font-family:comic sans, comic sans ms, cursive, verdana, arial, sans-serif;
+	line-height:1;
+	// position: relative;
 }
 
 /*  ----------------------------------------------------------
