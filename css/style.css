@@ -152,21 +152,84 @@ body {
 
 .hi {
 	padding: 7px 7px;
-    text-align: center;
 	border-bottom: 1px solid #ddd;
 	font-family: 'EB Garamond', serif;
 	color: #3A4145;
 	font-size: 1.4rem;
 	line-height: 1.3em;
+    text-align: center;
 }
 
-.hi > .typer-what-we-do, .hi > .typer-offer, .hi > .typer-offer2, .hi > .typer-benefit1,
-.hi > .typer-benefit2 {
+
+.hi > .tp-hd-wwd {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 800;
+    color: #777273;
+}
+
+.hi > .tp-hd-offer,
+.hi > .tp-hd-benefits,
+.hd-call-to-action {
+    transform:scale(2,3); /* W3C */
+    -webkit-transform:scale(2,3); /* Safari and Chrome */
+    -moz-transform:scale(2,3); /* Firefox */
+    -ms-transform:scale(2,3); /* IE 9 */
+    -o-transform:scale(2,3); /* Opera */
     font-family: 'EB Garamond', serif;
     font-size: 1.5rem;
     text-align: center;
     line-height: 1.4rem;
     font-weight: 600;
+    text-shadow:1px 1px 1px rgba(31,31,31,0.9);
+    color:#19A3D9;
+    letter-spacing:2pt;
+    word-spacing:2pt;
+}
+
+#emphFree {
+    color: #66C2E6;
+    text-shadow:1px 1px 1px rgba(31,31,31,0.9);
+}
+
+.hi > .tp-offer1,
+.hi > .tp-offer2 {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.4rem;
+    font-weight: 600;
+    color: #1A1F24;
+}
+
+.hi > .tp-benefit1,
+.hi > .tp-benefit2,
+.hi > .tp-benefit3,
+.hi > .tp-benefit4,
+.hi > .tp-benefit5,
+.hi > .benefit-bonus {
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+    color: #5b5c59;
+    text-align: left;
+}
+
+
+.hi > .checkmark-benefit {
+    height: 16px;
+    width: 16px;
+    margin-bottom: 3px;
+}
+
+#call-to-action-text {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: #5b5c59;
 }
 
 .button {

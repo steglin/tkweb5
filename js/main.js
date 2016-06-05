@@ -33,11 +33,19 @@
       			$(".preloader-left").addClass("slide-left");
       			$(".preloader-right").addClass("slide-right");
       			//	Typerjs function - Edit the sentences below
-				$('.typer-what-we-do').typeTo("We make websites that bring more clients.");
-                $('.typer-offer').typeTo("We make you a trial website for FREE !");
-                $('.typer-offer2').typeTo(" And if you like it you can use our service.");
-                $('.typer-benefit1').typeTo(" • get more people to know about your products & services");
-                $('.typer-benefit2').typeTo(" • Your business – quick online!");
+				$('.tp-hd-wwd').typeTo("We craft websites that bring more clients.");
+
+                $('.tp-hd-offer').typeTo("OFFER");
+                $('.tp-offer1').typeTo("We make you a trial website for ");
+                $('.tp-offer2').typeTo(" And if you like it you can use our service.");
+
+                $('.tp-hd-benefits').typeTo("YOUR BENEFITS");
+                $('.tp-benefit1').typeTo(" Get more clients, earn more ");
+                $('.tp-benefit2').typeTo(" Your business – quick online!");
+                $('.tp-benefit3').typeTo(" Impressive design, effective marketing ");
+                $('.tp-benefit4').typeTo(" Become seen in Google (SEO service) ");
+                $('.tp-benefit5').typeTo(" No risk no costs to get a trial website ");
+
       		});
 		});
 
