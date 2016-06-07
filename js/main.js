@@ -44,7 +44,7 @@
                 $('.tp-benefit2').typeTo(" Your business – quick online!");
                 $('.tp-benefit3').typeTo(" Impressive design, effective marketing ");
                 $('.tp-benefit4').typeTo(" Become seen in Google (SEO service) ");
-                $('.tp-benefit5').typeTo(" No risk no costs to get a trial website ");
+                $('.tp-benefit5').typeTo(" No risk to get a trial website ");
 
       		});
 		});

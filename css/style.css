@@ -157,7 +157,7 @@ body {
 	color: #3A4145;
 	font-size: 1.4rem;
 	line-height: 1.3em;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -173,15 +173,9 @@ body {
 .hi > .tp-hd-offer,
 .hi > .tp-hd-benefits,
 .hd-call-to-action {
-    transform:scale(2,3); /* W3C */
-    -webkit-transform:scale(2,3); /* Safari and Chrome */
-    -moz-transform:scale(2,3); /* Firefox */
-    -ms-transform:scale(2,3); /* IE 9 */
-    -o-transform:scale(2,3); /* Opera */
     font-family: 'EB Garamond', serif;
-    font-size: 1.5rem;
+    font-size: 19px;
     text-align: center;
-    line-height: 1.4rem;
     font-weight: 600;
     text-shadow:1px 1px 1px rgba(31,31,31,0.9);
     color:#19A3D9;
@@ -189,7 +183,7 @@ body {
     word-spacing:2pt;
 }
 
-#emphFree {
+.emphFree {
     color: #66C2E6;
     text-shadow:1px 1px 1px rgba(31,31,31,0.9);
 }
@@ -200,7 +194,7 @@ body {
     text-align: center;
     line-height: 1.4rem;
     font-weight: 600;
-    color: #1A1F24;
+    color: #5b5c59;
 }
 
 .hi > .tp-benefit1,
@@ -216,20 +210,19 @@ body {
     text-align: left;
 }
 
-
 .hi > .checkmark-benefit {
     height: 16px;
     width: 16px;
     margin-bottom: 3px;
 }
 
-#call-to-action-text {
+.call-to-action-text {
     font-family: 'EB Garamond', serif;
-    font-size: 1.6rem;
-    text-align: center;
-    line-height: 1.5rem;
-    font-weight: 600;
-    color: #5b5c59;
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 1.4rem;
+	font-weight: 600;
+	color: #5b5c59;
 }
 
 .button {
