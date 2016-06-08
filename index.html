@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="css/gmap_amsterdam.css">
 	<link rel="stylesheet" href="css/carousel/owl.carousel.css">
 	<link rel="stylesheet" href="css/carousel/owl.theme.css">
+	<link rel="stylesheet" href="bower_components/jquery-ui-custom/jquery-ui.min.css">
 
 	<!-- Google Font link -->
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
@@ -56,15 +57,13 @@
 					<div id="ew5-under-logo-text">
 						€uroWeb5
 					</div>
-					<div class="occupation">Webservices in Europe, Web and Graphic Design, Websites and Apps</div>
+					<div class="occupation">Webservices in Europe, Web and Graphic Design, Websites and Apps, We craft websites that bring more clients</div>
 				</div>
 				<div class="hi">
-                    <span class="tp-hd-wwd"></span><br/><br/>
-
-                    <p class="tp-hd-offer"></p><br/>
-
+                    <!--<span class="tp-hd-wwd"></span><br/><br/>-->
+                    <p class="tp-hd-offer"></p>
                     <span class="tp-offer1"></span><span class="emphFree">FREE !</span><br/>
-                    <span class="tp-offer2"></span><br/><br/>
+                    <span class="tp-offer2"></span><br/>
 
                     <p class="tp-hd-benefits"></p><br>
                     <img src="img/checkmark_benefit_64.png" class="checkmark-benefit"/><span class="tp-benefit1"></span><br/>
@@ -74,17 +73,27 @@
                     <img src="img/checkmark_benefit_64.png" class="checkmark-benefit"/><span class="tp-benefit5"></span><span class="emphFree"> FREE</span><br/>
                     <span class="emphFree">BONUS: </span><span class="benefit-bonus">We design your</span><span class="emphFree"> LOGO </span><span class="benefit-bonus">for</span><span class="emphFree"> FREE</span><br/>
 				</div>
-
-                <br>
-                <p class="hd-call-to-action">GET FREE WEBSITE</p><br/>
-                <p class="call-to-action-text"><img width="30" height="30" src="img/call_circle.png" alt="call circle">&nbsp +4368123456789
-					<br><img style="margin-bottom: -50px; margin-right: -7px;" width="38" height="63" src="img/arrow_click_here.png"> click and order free trial website</p>
-				<br/>
-				<div class="button">
-					<a href="#" class="download">Get free trial website
+                <p class="hd-call-to-action">GET FREE WEBSITE</p>
+				<p class="call-to-action-text">&nbsp <img width="30" height="30" src="img/call_circle.png">&nbsp +4368123456789
+					<button type="button" id="dialog-link">Get free trial website
 						<span class="fa fa-paper-plane-o"></span>
-					</a>
-				</div>
+					</button>
+						<div id="dialog" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 56px; max-height: none; height: auto;">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+				</p>
+<!--				<p><a href="#" id="dialog-link" class="ui-state-default ui-corner-all">
+					<span class="ui-icon ui-icon-newwin"></span>Open Dialog</a>
+				<div id="dialog" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 56px; max-height: none; height: auto;">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+				</p>-->
+
+				<!--<div class="button">-->
+					<!--<a href="" class="download">Get free trial website-->
+						<!--<span class="fa fa-paper-plane-o"></span>-->
+					<!--</a>-->
+				<!--</div>-->
 			</div> <!-- end #main content profile -->
 		</div>
 		<!-- end #profile -->
@@ -444,6 +453,7 @@
 
 	<!-- JavaScript Files -->
 	<script src="js/jquery.min.js"></script>
+	<script src="bower_components/jquery-ui-custom/jquery-ui.min.js"></script>
 	<script src="js/vendor/fastclick.js"></script> 
 	<script src="js/vendor/jquery.validate.min.js"></script>
 	<script src="js/vendor/jquery.typer.js"></script>

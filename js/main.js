@@ -33,7 +33,7 @@
       			$(".preloader-left").addClass("slide-left");
       			$(".preloader-right").addClass("slide-right");
       			//	Typerjs function - Edit the sentences below
-				$('.tp-hd-wwd').typeTo("We craft websites that bring more clients.");
+				// $('.tp-hd-wwd').typeTo("We craft websites that bring more clients.");
 
                 $('.tp-hd-offer').typeTo("OFFER");
                 $('.tp-offer1').typeTo("We make you a trial website for ");
@@ -48,6 +48,35 @@
 
       		});
 		});
+
+		// DIALOG   ORDER TRIAL
+
+		$( "#dialog" ).dialog({
+			autoOpen: false,
+			width: 400,
+			title: "Get FREE trial Website",
+			buttons: [
+				{
+					text: "Ok",
+					click: function() {
+						$( this ).dialog( "close" );
+					}
+				},
+				{
+					text: "Cancel",
+					click: function() {
+						$( this ).dialog( "close" );
+					}
+				}
+			]
+		});
+
+		// Link to open the dialog
+		$( "#dialog-link" ).click(function( event ) {
+			$( "#dialog" ).dialog( "open" );
+			event.preventDefault();
+		});
+
 
 	    //	Features animation function
 
