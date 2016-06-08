@@ -50,6 +50,12 @@
 		});
 
 		// DIALOG   ORDER TRIAL
+		/*		buttons:		{
+		 text: "SEND FREE ORDER NOW",
+		 click: function() {
+		 $( this ).dialog( "close" );
+		 }
+		 },*/
 
 		$( "#dialog" ).dialog({
 			autoOpen: false,
@@ -57,13 +63,7 @@
 			title: "Get FREE trial Website",
 			buttons: [
 				{
-					text: "Ok",
-					click: function() {
-						$( this ).dialog( "close" );
-					}
-				},
-				{
-					text: "Cancel",
+					text: "CANCEL FREE  ORDER",
 					click: function() {
 						$( this ).dialog( "close" );
 					}
