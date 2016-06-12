@@ -74,14 +74,19 @@
                     <span class="emphFree">BONUS: </span><span class="benefit-bonus">We design your</span><span class="emphFree"> LOGO </span><span class="benefit-bonus">for</span><span class="emphFree"> FREE</span><br/>
 				</div>
                 <p class="hd-call-to-action">GET FREE WEBSITE</p>
-				<p class="call-to-action-text">&nbsp <img width="30" height="30" src="img/call_circle.png">&nbsp +4368123456789
-					<button type="button" id="dialog-link">Get free trial website
-						<span class="fa fa-paper-plane-o"></span>
-					</button>
-						<div id="dialog" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 56px; max-height: none; height: auto;">
+				<p class="call-to-action-text">&nbsp
+					<span style="margin: 3px;">
+						<img width="30" height="30" src="img/call_circle.png">&nbsp +4368123456789
+					</span>
+
+						<button type="button" id="dialog-link">Get free trial website <span class="fa fa-paper-plane-o"></span></button>
+
+						<div id="dialog" class="ui-dialog-content ui-widget-content">
 							<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
-				<form role="form" action="action_page.php" method="post">
-					<h4>Order FREE trial website <small><br> It's free and always will be.</small></h4>
+				<form id="order-free-trial-form" role="form" action="https://script.google.com/macros/s/AKfycbx2mexmzW0Rro9v6hEr8FI6mZi_ph63PPgUAuvO5fCwHu5jAoKZ/exec" method="post">
+					<h4 style="text-align: center">Order FREE trial website <br>
+						<small style="text-align: center"> It's free and always will be.</small></h4>
+
 						<input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
 						<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="3">
 						<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="5">
@@ -466,6 +471,7 @@
 	<script src="js/vendor/jquery.typer.js"></script>
 	<script src="js/vendor/jquery.shuffle.min.js"></script>
 	<script src="js/vendor/morphext.min.js"></script>
+	<script src="js/jquery.form.js"></script>
 	<script src="js/smoothScrolls.js"></script>
 	<script src="js/prefixfree.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
@@ -473,5 +479,15 @@
 	<script src="js/gmap.js"></script>
     <script src="js/gmap_amsterdam.js"></script>
 	<script src="http://maps.google.com/maps/api/js?sensor=true/false"></script>
+
+	<script>
+		// wait for the DOM to be loaded
+		$(document).ready(function() {
+			// bind 'myForm' and provide a simple callback function
+			$('#order-free-trial-form').ajaxForm(function() {
+				alert("Thank You! Your FREE trial order has been sent!");
+			});
+		});
+	</script>
 </body>
 </html>
