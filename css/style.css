@@ -239,8 +239,8 @@ p.call-to-action-text > button#myBtn {
 	background-image: -ms-linear-gradient(top, #66C2E6, #19A3D9);
 	background-image: -o-linear-gradient(top, #66C2E6, #19A3D9);
 	background-image: linear-gradient(to bottom, #66C2E6, #19A3D9);
-	-webkit-border-radius: 28;
-	-moz-border-radius: 28;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
 	border-radius: 28px;
     border: none;
     outline: none;
@@ -250,6 +250,43 @@ p.call-to-action-text > button#myBtn {
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 }
+
+p.call-to-action-text > button#dialog-link {
+    margin: 4px;
+    background: #66C2E6;
+    border-radius: 28px;
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    outline: none;
+}
+
+/* ORDER FORM */
+#dialog.ui-dialog-content.ui-widget-content {
+    margin: auto;
+    width: auto;
+    min-height: 56px;
+    max-height: none;
+    height: auto;
+    background-color: #FCFDFD;
+}
+.ui-dialog-content.ui-widget-content > form#order-free-trial-form {
+    background: #FCFDFD;
+    margin: auto;
+
+}
+
+input.form-control.input-lg {
+    width: 95%;
+    background: #FCFDFD;
+    outline: none;
+}
+
+input.form-control.input-lg:focus {
+
+    outline: none;
+}
+
+/*   *****     */
 
 p.call-to-action-text > button#myBtn:hover {
 	background: #3cb0fd;
