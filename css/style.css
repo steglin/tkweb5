@@ -579,6 +579,14 @@ p.call-to-action-text > button#myBtn:hover {
 	margin-bottom: 15px;
 }
 
+.skill-item > .how-we-do-text {
+    color: #99A2B5;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.7rem;
+    text-align: justify;
+    font-weight: 600;
+}
+
 .skill-title {
 	font-family: 'Montserrat', serif;
 	color: #bbb;
