@@ -1,7 +1,7 @@
 /*  ==========================================================
 [Table of contents]
 
-1. 	basic setting
+1. 	basic setting & custom elements
 2.	#main-container
 3.	#profile
 4.	#features
@@ -17,7 +17,7 @@
 ==========================================================	*/
 
 /*  ----------------------------------------------------------
-[1. Basic Setting]
+[1. Basic Setting] and custom elements
 ----------------------------------------------------------  */
 
 * {
@@ -81,6 +81,46 @@ body {
 .slide-right {
 	transform: translate3d(100%, 0, 0);
 	will-change: transform;
+}
+
+
+/* ############################################################################### */
+/*                              CUSTOM SCROLL BAR                                  */
+/* ############################################################################### */
+
+/* Let's get this party started and create our own scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #19a3d9;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #4cb7e2;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #19a3d9;
+}
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+    background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
 }
 
 /*  ----------------------------------------------------------
