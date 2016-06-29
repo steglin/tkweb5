@@ -816,6 +816,7 @@ p.call-to-action-text > button#myBtn:hover {
 
 #filter li {
 	display: inline-block;
+	margin: 10px 5px 10px 5px;
 }
 
 #filter li a {
