@@ -55,20 +55,22 @@
 		 click: function() {
 		 $( this ).dialog( "close" );
 		 }
-		 },*/
+		 },
+
+		 {
+		 text: "CANCEL FREE  ORDER",
+		 click: function() {
+		 $( this ).dialog( "close" );
+		 }
+		 }
+
+		 */
 
 		$( "#dialog" ).dialog({
 			autoOpen: false,
 			width: 400,
 			title: "Get FREE trial Website",
-			buttons: [
-				{
-					text: "CANCEL FREE  ORDER",
-					click: function() {
-						$( this ).dialog( "close" );
-					}
-				}
-			]
+			buttons: []
 		});
 
 		// Link to open the dialog

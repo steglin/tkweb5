@@ -315,6 +315,10 @@ p.call-to-action-text > button#dialog-link {
 
 }
 
+#dialog.ui-dialog-content {
+    padding-left: 33px;
+}
+
 input.form-control.input-lg {
     width: 95%;
     background: #FCFDFD;
@@ -325,6 +329,43 @@ input.form-control.input-lg:focus {
 
     outline: none;
 }
+
+.order-form-wrapper > .order-form {
+
+}
+.order-form-wrapper > .order-form > input.field-phone {
+	border-radius: 5px;
+}
+.order-form-wrapper > .order-form > input.field-name {
+    border-radius: 5px;
+}
+.order-form-wrapper > .order-form > input.field-email {
+    border-radius: 5px;
+}
+.order-form-wrapper > .order-form > textarea.field-message {
+    border-radius: 5px;
+    width: 95%;
+}
+
+.order-form-wrapper > .order-form > input {
+    width: 95%;
+}
+
+button.order-submit-button {
+    width: 95%;
+  background-color: #2A84AD;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+button.order-submit-button:hover {
+  background-color: #66C2E6;
+  border-radius: 15px;
+}
+
+
 
 /*   *****     */
 

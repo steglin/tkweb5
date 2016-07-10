@@ -57,7 +57,7 @@
 					<div id="ew5-under-logo-text">
 						€uroWeb5
 					</div>
-					<div class="occupation">Webservices in Europe, Web and Graphic Design, Websites and Apps, We craft websites that bring more clients</div>
+					<div class="occupation">Webservices in Europe, Web and Graphic Design, Websites and Apps, We craft websites that bring more clients, Call now +43 681 10 35 1200 get free trial</div>
 				</div>
 				<div class="hi">
                     <!--<span class="tp-hd-wwd"></span><br/><br/>-->
@@ -76,61 +76,33 @@
                 <p class="hd-call-to-action">GET FREE WEBSITE</p>
 				<p class="call-to-action-text">&nbsp
 					<span style="margin: 3px;">
-						<img width="30" height="30" src="img/call_circle.png">&nbsp +4368123456789
+						<img width="30" height="30" src="img/call_circle.png">&nbsp +4368110351200
 					</span>
 
 						<button type="button" id="dialog-link">Get free trial website <span class="fa fa-paper-plane-o"></span></button>
 
 						<div id="dialog" class="ui-dialog-content ui-widget-content">
-							<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
-				<!--<form id="order-free-trial-form" role="form" action="https://script.google.com/macros/s/AKfycbx2mexmzW0Rro9v6hEr8FI6mZi_ph63PPgUAuvO5fCwHu5jAoKZ/exec" method="post">
-					<h4 style="text-align: center">Order FREE trial website <br>
-						<small style="text-align: center"> It's free and always will be.</small></h4>
-
-						<input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
-						<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="3">
-						<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="5">
-						<input type="submit" value="SEND ORDER NOW" class="btn btn-primary btn-block btn-lg" tabindex="7">
-				</form>-->
-
-
-                <div class="test-form-to-google-spreadsheet">
-                    <form id="gform" method="POST" class="pure-form pure-form-stacked"
+                <div class="order-form-wrapper">
+                    <form id="gform" method="POST" class="order-form"
                           action="https://script.google.com/macros/s/AKfycbx2mexmzW0Rro9v6hEr8FI6mZi_ph63PPgUAuvO5fCwHu5jAoKZ/exec">
                         <!-- change the form action to your script url -->
-
-                        <fieldset class="pure-group">
-                            <label for="name">Name: </label>
-                            <input id="name" name="name" placeholder="What your Mom calls you" />
-                        </fieldset>
-
-                        <fieldset class="pure-group">
-                            <label for="message">Message: </label>
-      <textarea id="message" name="message" rows="10"
-                placeholder="Tell us what's on your mind..."></textarea>
-                        </fieldset>
-
-                        <fieldset class="pure-group">
-                            <label for="email"><em>Your</em> Email Address:</label>
-                            <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
-      <span id="email-invalid" style="visibility:hidden">
-        Must be a valid email address</span>
-                        </fieldset>
-
-                        <fieldset class="pure-group">
-                            <label for="color">Favourite Color: </label>
-                            <input id="color" name="color" placeholder="green" />
-                        </fieldset>
-
-                        <button class="button-success pure-button button-xlarge">
-                            <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
-
+                        <input class="field-phone" id="phone" name="phone" placeholder="your phone number"/>
+                        <input class="field-name" id="name" name="name" placeholder="what's your name? :) "/>
+                        <input class="field-email" id="email" name="email" type="email" value="" placeholder="enter your.name@email.com"/>
+                          <span id="email-invalid" style="visibility:hidden">
+                            Must be a valid email address</span>
+                        <textarea class="field-message" id="message" name="message" rows="10" cols="40"
+                        placeholder="Tell us about your project, provide some urls of websites that you like and we will deliver your free trial website. OR if you want to get animation, copywriting or app please specify shortly in this message."></textarea>
+                        <button class="order-submit-button">
+                            <i class="fa fa-paper-plane"></i>&nbsp;Send
+                        </button>
                     </form>
 
                     <!-- Customise the Thankyou Message People See when they submit the form: -->
                     <div style="display:none;" id="thankyou_message">
-                        <h2><em>Thanks</em> for contacting us!
-                            We will get back to you soon!</h2>
+                        <h3 style="color: dimgrey" > Thanks for contacting us!
+                            The free trial order has been received.
+                            We will get back to you soon!</h3>
                     </div>
                 </div>
 
@@ -292,63 +264,180 @@
 					<h1 class="title">Portfolio</h1>
 						<ul id="filter">
 							<li><a class="active" href="#" data-group="all">All</a></li>
-							<li><a href="#" data-group="print">Websites</a></li>
-							<li><a href="#" data-group="logo">Apps</a></li>
-							<li><a href="#" data-group="sketch">Whiteboard Animations</a></li>
-							<li><a href="#" data-group="sketch">Copywrite works</a></li>
+							<li><a href="#" data-group="websites">Websites</a></li>
+							<li><a href="#" data-group="apps">Apps</a></li>
+							<li><a href="#" data-group="animations">Whiteboard Animations</a></li>
+							<li><a href="#" data-group="copywrite">Copywrite works</a></li>
 						</ul>
 
 						<div id="portfolio-container">
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/1.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/1.jpg" alt="item 1">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "copywrite"]'>
+                                <a class="overlay" href="img/portfolio/copywrite/0.jpg" target="_blank"></a>
+                                <img src="img/portfolio/copywrite/0.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "apps"]'>
+                                <a class="overlay" href="img/portfolio/apps/0.jpg" target="_blank"></a>
+                                <img src="img/portfolio/apps/0.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "animations"]'>
+                                <iframe width="500" height="375" src="https://www.youtube.com/embed/iketgwBhVUQ" frameborder="0" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/3.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/3.jpg" alt="item 3">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/2.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/2.jpg" alt="item 2">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/4.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/4.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/5.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/5.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/6.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/6.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/7.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/7.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/8.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/8.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/9.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/9.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/10.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/10.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/11.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/11.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/12.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/12.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/13.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/13.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/14.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/14.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/15.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/15.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/16.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/16.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/17.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/17.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/18.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/18.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/19.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/19.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "websites"]'>
+                                <a class="overlay" href="img/portfolio/websites/20.jpg" target="_blank"></a>
+                                <img src="img/portfolio/websites/20.jpg" alt="item 4">
+                            </div>
 
-							<div class="portfolio-item" data-groups='["all", "sketch"]'>
-								<!--<a class="overlay" href="portfolio-case.html">
-									<h1>Badge</h1>
-									<h4>This is my project about lorem ipsum dolor.</h4>
-								</a>-->
-								<img src="img/portfolio/1.jpg" alt="item 1">
-							</div>
 
-							<div class="portfolio-item" data-groups='["all", "sketch"]'>
-								<!--<a class="overlay" href="portfolio-case.html">
-									<h1>Sketch</h1>
-									<h4>This is my project about lorem ipsum dolor.</h4>
-								</a>-->
-								<!--<img src="img/portfolio/2.jpg" alt="item 2">-->
-                                <iframe width="400" height="300" src="https://www.youtube.com/embed/yqdob2uGE3E" frameborder="0" allowfullscreen>
+                            <div class="portfolio-item" data-groups='["all", "apps"]'>
+                                <a class="overlay" href="img/portfolio/apps/1.jpg" target="_blank"></a>
+                                <img src="img/portfolio/apps/1.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "apps"]'>
+                                <a class="overlay" href="img/portfolio/apps/2.jpg" target="_blank"></a>
+                                <img src="img/portfolio/apps/2.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "apps"]'>
+                                <a class="overlay" href="img/portfolio/apps/3.jpg" target="_blank"></a>
+                                <img src="img/portfolio/apps/3.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "apps"]'>
+                                <a class="overlay" href="img/portfolio/apps/4.jpg" target="_blank"></a>
+                                <img src="img/portfolio/apps/4.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "apps"]'>
+                                <a class="overlay" href="img/portfolio/apps/5.jpg" target="_blank"></a>
+                                <img src="img/portfolio/apps/5.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "apps"]'>
+                                <a class="overlay" href="img/portfolio/apps/6.jpg" target="_blank"></a>
+                                <img src="img/portfolio/apps/6.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "apps"]'>
+                                <a class="overlay" href="img/portfolio/apps/7.jpg" target="_blank"></a>
+                                <img src="img/portfolio/apps/7.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "apps"]'>
+                                <a class="overlay" href="img/portfolio/apps/8.jpg" target="_blank"></a>
+                                <img src="img/portfolio/apps/8.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "apps"]'>
+                                <a class="overlay" href="img/portfolio/apps/0.gif" target="_blank"></a>
+                                <img src="img/portfolio/apps/0.gif" alt="item 4">
+                            </div>
+
+
+                            <div class="portfolio-item" data-groups='["all", "copywrite"]'>
+                                <a class="overlay" href="img/portfolio/copywrite/1.jpg" target="_blank"></a>
+                                <img src="img/portfolio/copywrite/1.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "copywrite"]'>
+                                <a class="overlay" href="img/portfolio/copywrite/2.jpg" target="_blank"></a>
+                                <img src="img/portfolio/copywrite/2.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "copywrite"]'>
+                                <a class="overlay" href="img/portfolio/copywrite/3.jpg" target="_blank"></a>
+                                <img src="img/portfolio/copywrite/3.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "copywrite"]'>
+                                <a class="overlay" href="img/portfolio/copywrite/4.jpg" target="_blank"></a>
+                                <img src="img/portfolio/copywrite/4.jpg" alt="item 4">
+                            </div>
+                            <div class="portfolio-item" data-groups='["all", "copywrite"]'>
+                                <a class="overlay" href="img/portfolio/copywrite/5.jpg" target="_blank"></a>
+                                <img src="img/portfolio/copywrite/5.jpg" alt="item 4">
+                            </div>
+
+
+
+							<div class="portfolio-item" data-groups='["all", "animations"]'>
+                                <iframe width="500" height="375" src="https://www.youtube.com/embed/T-ah__gFnVM" frameborder="0" allowfullscreen>
                                 </iframe>
 							</div>
-
-							<div class="portfolio-item" data-groups='["all", "print"]'>
-								<a class="overlay" href="portfolio-case.html">
-									<h1>Breaking Bad</h1>
-									<h4>This is my project about lorem ipsum dolor.</h4>
-								</a>
-								<img src="img/portfolio/3.jpg" alt="item 3">
+							<div class="portfolio-item" data-groups='["all", "animations"]'>
+                                <iframe width="500" height="375" src="https://www.youtube.com/embed/9Jtc0qyhBrY" frameborder="0" allowfullscreen>
+                                </iframe>
 							</div>
-
-							<div class="portfolio-item" data-groups='["all", "logo"]'>
-								<a class="overlay" href="portfolio-case.html">
-									<h1>Hopdog</h1>
-									<h4>This is my project about lorem ipsum dolor.</h4>
-								</a>
-								<img src="img/portfolio/4.jpg" alt="item 4">
+							<div class="portfolio-item" data-groups='["all", "animations"]'>
+                                <iframe width="500" height="375" src="https://www.youtube.com/embed/He8oTlbxVdQ" frameborder="0" allowfullscreen>
+                                </iframe>
 							</div>
-
-							<div class="portfolio-item" data-groups='["all", "logo"]'>
-								<a class="overlay" href="img/portfolio/5.jpg">
-									<h1>Playstation</h1>
-									<h4>This is my project about lorem ipsum dolor.</h4>
-								</a>
-								<img src="img/portfolio/5.jpg" alt="item 5">
-							</div>
-
-                            <div class="portfolio-item" data-groups='["all", "logo"]'>
-                                <a class="overlay" href="img/portfolio/5.jpg" target="_blank">
-                                    <h1>Test target</h1>
-                                    <h4>This is my project about lorem ipsum dolor.</h4>
-                                </a>
-                                <img src="img/portfolio/5.jpg" alt="item 5">
-                            </div>
 
 
 						</div>
@@ -469,13 +558,13 @@
 			<div id="contact" class="absolute">
 				<div id="top-contact" class="expand add-expand">
 					<h1>Contact</h1>
-					<div class="detail">Contact now <br/>
+					<div class="detail">Contact now +43 681 1035 1200<br/>
 						and get your FREE test website!</div>
 					<div class="icon icon-left fa fa-phone"></div>
 				</div>
 				<div class="main-content">
 					<a href="#top-contact" class="close-icon expand"></a>
-					<h1 class="title">Get In Touch</h1>
+					<h1 class="title">CALL NOW <span style="color:dimgrey">+43 681 10 35 1200</span></h1>
 					<div class="row">
 						<div class="col-md-6">
 							<h2 class="title">Let's meet in Vienna</h2>
@@ -487,7 +576,6 @@
 							</section>
 							<ul class="list">
 								<li><div class="icon fa fa-map-marker"></div>Vienna, Austria</li>
-								<li><div class="icon fa fa-map-marker"></div>Amsterdam, Netherlands</li>
 								<li><div class="icon fa fa-envelope-o"></div>contact@euroweb5.com</li>
 								<li><div class="icon fa fa-phone"></div>+4368110351200</li>
 							</ul>
@@ -508,8 +596,8 @@
 						</div>
 
 						<div class="col-md-5">
-							<h2 class="title">Drop Me A Mail</h2>
-							<form id="contact-form" action="https://balapastudio.co/katya/contact.php" method="POST">
+							<h2 class="title">Drop us a Mail</h2>
+							<form id="contact-form" action="contact.php" method="POST">
 								<input type="text" name="subject" placeholder="Subject">
 								<input type="text" name="name" placeholder="Name">
 								<input type="email" name="email" placeholder="Email">
