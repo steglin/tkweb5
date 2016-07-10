@@ -351,6 +351,15 @@ input.form-control.input-lg:focus {
     width: 95%;
 }
 
+::-webkit-input-placeholder { color: lightgrey; }
+::-moz-placeholder          { color: lightgrey; }/* Firefox 19+ */
+:-moz-placeholder           { color: lightgrey; }/* Firefox 18- */
+:-ms-input-placeholder      { color: lightgrey; }
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
 button.order-submit-button {
     width: 95%;
   background-color: #2A84AD;
