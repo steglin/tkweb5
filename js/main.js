@@ -69,7 +69,7 @@
 		$( "#dialog" ).dialog({
 			autoOpen: false,
 			width: 400,
-			title: "Get FREE trial Website",
+			title: "Enter your phone we call you back",
     			responsive: true,
 			buttons: [],
      			dragable: true,
