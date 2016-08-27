@@ -70,7 +70,10 @@
 			autoOpen: false,
 			width: 400,
 			title: "Get FREE trial Website",
-			buttons: []
+    			responsive: true,
+			buttons: [],
+     			dragable: true,
+			position: "left+10 top+10"
 		});
 
 		// Link to open the dialog
