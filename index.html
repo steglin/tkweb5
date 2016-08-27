@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/font-awesome-animation.min.css">
 	<link rel="stylesheet" href="css/gmap.css">
 	<link rel="stylesheet" href="css/gmap_amsterdam.css">
 	<link rel="stylesheet" href="css/carousel/owl.carousel.css">
@@ -73,13 +74,14 @@
                     <img src="img/checkmark_benefit_64.png" class="checkmark-benefit"/><span class="tp-benefit5"></span><span class="emphFree"> FREE</span><br/>
                     <span class="emphFree">BONUS: </span><span class="benefit-bonus">We design your</span><span class="emphFree"> LOGO </span><span class="benefit-bonus">for</span><span class="emphFree"> FREE</span><br/>
 				</div>
-                <p class="hd-call-to-action">GET FREE WEBSITE</p>
+                <p class="hd-call-to-action">&#8681; CLICK WE CALL YOU BACK</p>
 				<p class="call-to-action-text">&nbsp
-					<span style="margin: 3px;">
-						<img width="30" height="30" src="img/call_circle.png">&nbsp +4368110351200
+					<span class="call-me-back-block">
+						<img  class="btn-callback faa-horizontal faa-slow animated" id="dialog-link" src="img/btn_webphone_blue.png" >
+						<span class="phone-number"> &nbsp +4368110351200 </span>
 					</span>
 
-						<button type="button" id="dialog-link">Get free trial website <span class="fa fa-paper-plane-o"></span></button>
+						<button style="display: none" type="button" class="faa-shake animated">Get free trial website <span class="fa fa-paper-plane-o"></span></button>
 
 						<div id="dialog" class="ui-dialog-content ui-widget-content">
                 <div class="order-form-wrapper">
@@ -656,6 +658,7 @@
 
 	</div>
 	<!-- end #main-container -->
+
 
 	<!-- JavaScript Files -->
 	<script src="js/jquery.min.js"></script>
