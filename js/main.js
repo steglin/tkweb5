@@ -34,37 +34,18 @@
       			$(".preloader-right").addClass("slide-right");
       			//	Typerjs function - Edit the sentences below
 				// $('.tp-hd-wwd').typeTo("We craft websites that bring more clients.");
-
-                $('.tp-hd-offer').typeTo("OFFER");
-                $('.tp-offer1').typeTo("We make you a trial website for ");
-                $('.tp-offer2').typeTo(" And if you like it you can use our service.");
-
-                $('.tp-hd-benefits').typeTo("YOUR BENEFITS");
-                $('.tp-benefit1').typeTo(" Get more clients, earn more ");
-                $('.tp-benefit2').typeTo(" Your business – quick online!");
-                $('.tp-benefit3').typeTo(" Impressive design, effective marketing ");
-                $('.tp-benefit4').typeTo(" Become seen in Google (SEO service) ");
-                $('.tp-benefit5').typeTo(" No risk to get a trial website ");
+                // $('.tp-hd-offer').typeTo("OFFER");
+                // $('.tp-offer1').typeTo("We make you a trial website for ");
+                // $('.tp-offer2').typeTo(" And if you like it you can use our service.");
+                // $('.tp-hd-benefits').typeTo("YOUR BENEFITS");
+                // $('.tp-benefit1').typeTo(" Get more clients, earn more ");
+                // $('.tp-benefit2').typeTo(" Your business – quick online!");
+                // $('.tp-benefit3').typeTo(" Impressive design, effective marketing ");
+                // $('.tp-benefit4').typeTo(" Become seen in Google (SEO service) ");
+                // $('.tp-benefit5').typeTo(" No risk to get a trial website ");
 
       		});
 		});
-
-		// DIALOG   ORDER TRIAL
-		/*		buttons:		{
-		 text: "SEND FREE ORDER NOW",
-		 click: function() {
-		 $( this ).dialog( "close" );
-		 }
-		 },
-
-		 {
-		 text: "CANCEL FREE  ORDER",
-		 click: function() {
-		 $( this ).dialog( "close" );
-		 }
-		 }
-
-		 */
 
 		$( "#dialog" ).dialog({
 			autoOpen: false,

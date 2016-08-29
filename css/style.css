@@ -157,6 +157,71 @@ body {
 	border-bottom: 1px solid #ddd;
 }
 
+#profile .summary .languages-bar {
+    width: 182px;
+    margin-top:5px;
+    margin-bottom: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+#profile .summary .languages-bar > span.lang-label {
+    margin: 0px 0px 0px 0px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    color: #19A3D9;
+    font-weight: 800;
+    cursor: pointer;
+}
+#profile .summary .languages-bar > span.lang-label .selected {
+    border: 2px solid #19A3D9;
+    border-radius: 10px;
+}
+
+#profile .summary .languages-bar > span.lang-label > a {
+    text-decoration: none;
+    color: #19A3D9;
+}
+#profile .summary .languages-bar > span.de-lang-label {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 5px 0px 74px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+	color: #19A3D9;
+	font-weight: 800;
+	cursor: pointer;
+
+
+}
+#profile .summary .languages-bar > span.ru-lang-label {
+	margin: 0px 0px 0px 0px;
+	color: #19A3D9;
+	font-weight: 800;
+	cursor: pointer;
+	padding: 0px 5px;
+
+}
+#profile .summary .languages-bar > span.en-lang-label {
+	margin: 0px 0px 0px 0px;
+	color: #19A3D9;
+	font-weight: 800;
+	cursor: pointer;
+	padding: 0px 5px;
+
+}
+
 #profile .big-image {
 	width: 80px;
 	// border-radius: 50%;
