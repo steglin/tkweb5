@@ -91,23 +91,24 @@
 
 						<div id="dialog" class="ui-dialog-content ui-widget-content">
                 <div class="order-form-wrapper">
-                    <form id="gform" method="POST" class="order-form"
-                          action="https://script.google.com/macros/s/AKfycbx2mexmzW0Rro9v6hEr8FI6mZi_ph63PPgUAuvO5fCwHu5jAoKZ/exec">
-                        <!-- change the form action to your script url -->
-						<i class="fa fa-phone" style="margin-right: 3px"></i><input class="field-phone" id="contacts" name="contacts" placeholder="Enter your phone number we call you back"/>
-						<i class="fa fa-clock-o" style="margin-right: 3px"></i><input  id="time" name="time" value="" placeholder="Optional: what time and date to call you?"/>
-                        <button class="order-submit-button">
-                            <i class="fa fa-paper-plane"></i>&nbsp;Submit & we call you back
-                        </button>
-                    </form>
-
+					<form id="gform" method="POST" class="order-form"
+						  action="https://script.google.com/macros/s/AKfycbx2mexmzW0Rro9v6hEr8FI6mZi_ph63PPgUAuvO5fCwHu5jAoKZ/exec">
+						<!-- change the form action to your script url -->
+						<i class="fa fa-info-circle" style="margin-right: 3px"></i><span style="text-align: justify; margin-bottom: 3px;">
+						We will promptly call you back. Just enter your contact phone number below, click submit button and we call you back! <br/></span>
+						<i class="fa fa-phone" style="margin-right: 3px"></i><input style="margin-bottom: 3px; font-size: 12px;" class="field-phone" id="contacts" name="contacts" placeholder="Enter your phone number here we call you back"/>
+						<i class="fa fa-clock-o" style="margin-right: 3px"></i><input style="margin-bottom: 3px; font-size: 12px;"  id="time" name="time" value="" placeholder="Optional: what time and date to call you?"/>
+						<button class="order-submit-button">
+							<i class="fa fa-paper-plane"></i>&nbsp;Submit & request callback
+						</button>
+					</form>
                     <!-- Customise the Thankyou Message People See when they submit the form: -->
-                    <div style="display:none;" id="thankyou_message">
-                        <h4 style="color: dimgrey" >
-							Your contacts received.
-							We will contact you soon!
-						</h4>
-                    </div>
+					<div style="display:none;" id="thankyou_message">
+				<p style="color: #615454; margin: 12px; text-align: justify; font-size: 11px; font-weight: 700;" >
+				Your contacts received. <br/>
+				We call you back shortly!
+				</p>
+			</div>
                 </div>
 
 
