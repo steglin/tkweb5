@@ -181,6 +181,7 @@ body {
     zoom: 1;
     color: #19A3D9;
     font-weight: 800;
+	font-size: 12px;
     cursor: pointer;
 }
 #profile .summary .languages-bar > span.lang-label .selected {
